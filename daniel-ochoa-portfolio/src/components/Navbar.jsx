@@ -9,14 +9,6 @@ import ResumePDF from "../assets/DanielOchoaResume.pdf";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
-  const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = ResumePDF;
-    link.download = "DanielOchoaResume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-gray-300">
@@ -129,7 +121,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href={ResumePDF}
               target="_blank"
-              rel="noopener no referrer"
+              rel="noopener noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

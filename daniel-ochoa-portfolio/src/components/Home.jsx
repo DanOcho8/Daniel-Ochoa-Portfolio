@@ -6,7 +6,7 @@ const Home = () => {
     <div name="home" className="w-full h-screen bg-[black]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-white">
-        <p className="text-pink-600">Hi, my name is</p>
+        <p className="text-[#357a3a]">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Daniel Ochoa
         </h1>
@@ -23,7 +23,7 @@ const Home = () => {
         <div>
           <button
             href=""
-            className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600"
+            className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#357a3a] hover:border-[#357a3a]"
           >
             <Link to="work" smooth={true} duration={500}>
               View Work

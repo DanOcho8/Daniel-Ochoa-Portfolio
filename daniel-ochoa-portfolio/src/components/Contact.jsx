@@ -12,7 +12,7 @@ const Contact = () => {
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
+          <p className="text-4xl font-bold inline border-b-4 border-[#357a3a] text-gray-300">
             Contact
           </p>
           <p className="text-gray-300 py-4">
@@ -37,7 +37,7 @@ const Contact = () => {
           rows="10"
           placeholder="Message"
         />
-        <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
+        <button className="text-white border-2 hover:bg-[#357a3a] hover:border-[#357a3a] px-4 py-3 my-8 mx-auto flex items-center">
           Send
         </button>
       </form>

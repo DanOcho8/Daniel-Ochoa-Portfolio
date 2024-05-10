@@ -5,7 +5,7 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 
 ## Description
 
-This portfolio website serves as my online resume and project showcase. It includes sections such as Home, About, Skills, Projects, and Contact, providing visitors with an overview of Daniel's background, skills, and projects.
+This portfolio website serves as my online resume and project showcase. It includes sections such as Home, About, Skills, Projects, and Contact, providing visitors with an overview of my background, skills, and projects.
 
 ## Features
 

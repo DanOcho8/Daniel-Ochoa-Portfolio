@@ -47,6 +47,10 @@ This will start the development server and open the website in your default web 
 - React Scroll
 - Tailwind CSS
 
+# Link to Deployed Site
+
+https://danielochoportfolio.netlify.app/
+
 ## Contributing
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or create a pull request.
